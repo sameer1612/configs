@@ -1,0 +1,42 @@
+{
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "workbench.colorTheme": "Monokai",
+    "workbench.activityBar.visible": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+    "sync.gist": "cd732ad5bb5c8d6016c810b9a6045aeb",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "Fira Code Retina",
+    "editor.fontLigatures": true,
+    "solargraph.formatting": true,
+    "ruby.format": "rubocop",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[ruby]": {
+        "editor.defaultFormatter": "castwide.solargraph"
+    },
+    "editor.fontSize": 16,
+    "window.zoomLevel": 0,
+    "editor.mouseWheelZoom": true,
+    "editor.tabSize": 2,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "shakram02.bash-beautify"
+    },
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.renderWhitespace": "none",
+    "python.jediEnabled": false,
+    "window.openFilesInNewWindow": "on",
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.editor.enablePreview": false,
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+}
