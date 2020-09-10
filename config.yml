@@ -1,28 +1,28 @@
 swipe:
+  4:
+    up:
+      sendkey: "CTRL+LEFTALT+Up"
+    down:
+      sendkey: "CTRL+LEFTALT+Down"
+    left:
+      sendkey: "CTRL+LEFTMETA+RIGHT"
+    right:
+      sendkey: "CTRL+LEFTMETA+LEFT"
   3:
     left:
-      command: "xdotool key alt+Left"
+      sendkey: "LEFTALT+RIGHT"
     right:
-      command: "xdotool key alt+Right"
+      sendkey: "LEFTALT+LEFT"
     up:
-      command: "xdotool key ctrl+t"
+      sendkey: "CTRL+T"
     down:
-      command: "xdotool key ctrl+w"
-  4:
-    left:
-      command: "xdotool key alt+Shift+Tab"
-    right:
-      command: "xdotool key alt+Tab"
-    up:
-      command: "xdotool key super"
-    down:
-      command: "xdotool key super"
+      sendkey: "CTRL+W"
 
 pinch:
   2:
     in:
-      command: "xdotool key ctrl+plus"
+      sendkey: "CTRL+KPPLUS"
       threshold: 0.1
     out:
-      command: "xdotool key ctrl+minus"
+      sendkey: "CTRL+MINUS"
       threshold: 0.1
